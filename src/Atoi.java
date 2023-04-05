@@ -6,11 +6,16 @@
 public class Atoi {
     public static int myAtoi(String s) {
 
+        if(s.length()==0){
+            return 0;
+        }
+
         long number = 0;
         char[] chars = s.toCharArray();
         int i = 0;
         double sign = 1;
         char current = chars[i];
+
 
         while(current == ' '){
             i++;
