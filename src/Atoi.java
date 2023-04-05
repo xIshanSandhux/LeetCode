@@ -2,7 +2,7 @@
 *  LeetCode
 *   Question Number:- 8
 *   Difficulty:- Medium
- */
+*/
 public class Atoi {
     public static int myAtoi(String s) {
 
@@ -43,10 +43,6 @@ public class Atoi {
                 number *=10;
                 number +=current - '0';
 
-                if(number==23){
-                    System.out.println(i);
-
-                }
 
                 if(sign*number<=Integer.MIN_VALUE){
                     return Integer.MIN_VALUE;
