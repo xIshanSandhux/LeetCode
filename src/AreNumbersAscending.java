@@ -15,7 +15,7 @@ public class AreNumbersAscending {
 
         for(int i=0;i<str.length;i++){
 
-            if(prev>=n){
+            if(prev>n){
                 t = false;
                 break;
             }
